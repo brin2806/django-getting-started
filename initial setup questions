@@ -1,0 +1,33 @@
+Hi jess
+
+A few problems:
+
+
+
+Python Environment Setup
+
+point 2 - python install path below is the path i get - its not  "/usr/local/bin/python3"
+
+brindhangamsMBP:~ brindha$ which python3
+/Library/Frameworks/Python.framework/Versions/3.4/bin/python3
+
+point 3
+
+brindhangamsMBP:~ brindha$ sudo pip3 install virtualenv virtualenwrapper
+Password:
+Requirement already satisfied (use --upgrade to upgrade): virtualenv in /Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages
+Downloading/unpacking virtualenwrapper
+  Could not find any downloads that satisfy the requirement virtualenwrapper
+Cleaning up...
+No distributions at all found for virtualenwrapper
+Storing debug log for failure in /Users/brindha/.pip/pip.log
+brindhangamsMBP:~ brindha$ 
+
+point 4
+
+brindhangamsMBP:~ brindha$ cd~
+-bash: cd~: command not found
+brindhangamsMBP:~ brindha$ cd ~
+brindhangamsMBP:~ brindha$ emacs.bashrc
+-bash: emacs.bashrc: command not found
+brindhangamsMBP:~ brindha$ 
